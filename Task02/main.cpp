@@ -18,10 +18,10 @@ int main() {
 		result = true;
 	}
 	else if (num <= 1 || powerNumber <= 0) {
-		return false;
+		result = false;
 	}
 	else {
-		result = check_power_of_number(num, powerNumber, result);
+		result = check_power_of_number(num, powerNumber);
 	}
 
 	string msg = result ? to_string(powerNumber) + " is a power of a " + to_string(num)
