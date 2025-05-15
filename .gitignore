@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Task03/logic.cpp
+/Task03/logic.h
+/Task03/main.cpp
+/Task03/Task03.vcxproj
+/Task03
