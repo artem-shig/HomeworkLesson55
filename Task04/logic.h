@@ -1,4 +1,4 @@
 #include <iostream>
 using namespace std;
 
-int find_max_digit(int num, int maxDigit);
+int find_max_digit(int num);

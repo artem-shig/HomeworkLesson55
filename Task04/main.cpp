@@ -12,10 +12,8 @@ int main() {
 		return 0;
 	}
 
-	int maxDigit = INT_MIN;
-
 	cout << " Max digit in a " << num << " is "
-		<< find_max_digit(num, maxDigit) << endl;
+		<< find_max_digit(num) << endl;
 
 	return 0;
 }
